@@ -1,7 +1,11 @@
 body {
     background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    background-image: url("../img/cartographer.png");
     color: #6895a0;
+}
+
+#home-img {
+    text-align:center;
 }
 .btn-primary {
     background: #6895a0!important;
