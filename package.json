@@ -1,0 +1,24 @@
+{
+  "name": "amateur-radio-contact-logger",
+  "version": "1.0.0",
+  "description": "A simple contact logging system for amateur radio enthusiasts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npsantini/Amateur-Radio-Contact-Logger.git"
+  },
+  "author": "Nick Santini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npsantini/Amateur-Radio-Contact-Logger/issues"
+  },
+  "homepage": "https://github.com/npsantini/Amateur-Radio-Contact-Logger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.3",
+    "socket.io": "^2.3.0"
+  }
+}

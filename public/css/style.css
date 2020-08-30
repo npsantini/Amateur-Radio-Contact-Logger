@@ -1,0 +1,94 @@
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    color: #6895a0;
+}
+.btn-primary {
+    background: #6895a0!important;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+    background: #6895a0!important;
+    border: 1px solid #6895a0;
+}
+
+audio {
+    outline: none;
+    width: 100%;
+}
+
+button#recordButton {
+    height: 55px;
+}
+
+.blink-bg{
+    color: #fff;
+    animation: blinkingBackground 3s infinite;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #ef0a1a;}
+    25%		{ background-color: transparent;}
+    50%		{ background-color: #ef0a1a;}
+    75%		{ background-color: transparent;}
+    100%	{ background-color: #ef0a1a;}
+}
+  
+#navbarSupportedContent {
+    padding-left:15px;
+    border-left: 2px solid #fff;
+}
+.navbar svg {
+    padding-right: .25em;
+    vertical-align: text-top;
+}
+  
+hr {
+    border-color: rgba(255,255,255,0.5);
+}
+
+#searchLogBook {
+    width:100%;
+}
+  
+#logBook {
+    display:none;
+}
+
+#logTable {
+    background: #fff;
+}
+#logTable tr:nth-child(odd) {
+    background: #eee;
+}
+
+#logTable thead tr {
+    background: #222!important;
+    color: #fff;
+    
+}
+
+.tablefromcallsign {
+
+}
+.tabletocallsign {
+
+}
+.tabledate {
+
+}
+.tableband {
+
+}
+.tablemode {
+
+}
+.tablecountry {
+
+}
+.tablestate {
+
+}
+.tablenotes {
+
+}
